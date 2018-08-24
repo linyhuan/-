@@ -1,4 +1,6 @@
 #!coding=utf-8
+###爬取苏宁易购店铺商品信息
+
 import requests
 import re
 import math
@@ -150,7 +152,7 @@ class suning(object):
 
 
 if __name__=='__main__':
-    path=r'E:\lyh\data\mallprice\sn\0814'
+    path=r'E:\'
     sn=suning(path=path)
     url='https://phoenix.suning.com'
     df=sn.goodid(url)
